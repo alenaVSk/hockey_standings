@@ -1,0 +1,51 @@
+MODULE Teams;
+
+REQUIRE System, Goals;
+
+CLASS Team 'Команда';
+
+name 'Название команды' = DATA STRING[30] (Team) IN base;
+
+CLASS Player 'Игроки';
+
+teamTable 'Таблица' = DATA Team (Player) NONULL DELETE;
+
+index 'Номер строки' (Player p) =
+    PARTITION SUM 1 IF p IS Player
+        ORDER p BY teamTable(p);
+
+playerName 'Имя игрока' = DATA STRING[30] (Player) IN base;
+position 'Позиция' = DATA STRING[20] (Player) IN base;
+
+FORM teamTable 'Команда'
+    OBJECTS t = Team PANEL
+    PROPERTIES(t) name
+
+    OBJECTS p = Player
+    PROPERTIES(p) index, playerName, position
+    PROPERTIES(p) NEW, EDIT, DELETE // редактирование(команда и игроки) на одной странице без перехода на др.
+    FILTERS teamTable(p) = t
+
+    EDIT Team OBJECT t
+;
+
+FORM teamsTable 'Команды'
+    OBJECTS t = Team
+    PROPERTIES(t) READONLY name
+    PROPERTIES(t) NEWSESSION NEW, EDIT, DELETE
+
+    OBJECTS p = Player
+    PROPERTIES(p) READONLY index, playerName, position
+    FILTERS teamTable(p) = t
+;
+/*
+FORM listTeam 'Команда'
+    OBJECTS t = Team
+    PROPERTIES(t) READONLY name
+    
+    LIST Team OBJECT t
+;
+*/
+NAVIGATOR {
+    NEW teamsTable;
+}

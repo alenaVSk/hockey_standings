@@ -1,0 +1,36 @@
+24 апр. 2025 11:27:29,294 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 12:47:56,167 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 14:24:03,533 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 14:41:14,790 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 14:42:54,794 ERROR StartLogger - Exception while starting logics instance: [error]:
+	HockeyStats:26:5 property or action 'playerTeam[HockeyStats.Player]' is not found
+Subsequent errors (if any) could not be found.
+24 апр. 2025 14:43:12,369 ERROR StartLogger - Exception while starting logics instance: [error]:
+	HockeyStats:38:5 property or action 'playerTeam[HockeyStats.Player]' is not found
+Subsequent errors (if any) could not be found.
+24 апр. 2025 14:43:50,008 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 14:52:25,158 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 14:57:22,401 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 15:03:25,915 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 19:05:01,632 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 19:08:11,959 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 19:24:28,576 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 19:29:48,988 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 21:23:59,825 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 21:28:29,745 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 21:34:40,518 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
+24 апр. 2025 21:56:37,594 ERROR StartLogger - Exception while starting logics instance: 
+java.lang.RuntimeException: [error]:	there is a circular dependency between required modules: Teams <- HockeyStats <- Teams
+	at lsfusion.server.physics.dev.module.ModuleList.checkCycles(ModuleList.java:147)
+	at lsfusion.server.physics.dev.module.ModuleList.buildModuleGraphWithOrderDependencies(ModuleList.java:44)
+	at lsfusion.server.physics.dev.module.ModuleList.orderModules(ModuleList.java:37)
+	at lsfusion.server.logics.BusinessLogics.initModuleOrders(BusinessLogics.java:421)
+	at lsfusion.server.physics.dev.module.controller.init.InitModuleOrderTask.run(InitModuleOrderTask.java:13)
+	at lsfusion.server.base.task.Task.proceed(Task.java:154)
+	at lsfusion.server.base.task.Task$1.aspectRun(Task.java:112)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$AspectRunnable.run(ExecutorFactory.java:476)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:558)
+24 апр. 2025 21:59:09,576 ERROR SystemLogger - Failed to initialize tess4j. Add tess4j jar to classpath.
