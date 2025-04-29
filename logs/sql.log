@@ -1,0 +1,9 @@
+29 апр. 2025 14:11:40,205 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (41),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,206 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (69),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,207 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (60),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,208 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (70),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,208 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (68),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,212 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[pool-12-HockeyStats.teamAndPlayers-pausable-daemon-1,5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,212 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (67),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,213 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (43),5,RMI Runtime]: no private connection found
+29 апр. 2025 14:11:40,213 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (66),5,RMI Runtime]: no private connection found

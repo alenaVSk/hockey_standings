@@ -5,12 +5,27 @@ REQUIRE System, Teams;
 CLASS Game 'Игра';
 
 date 'Дата' = DATA DATE (Game);
-hostTeam = DATA Team (Game);
-guestTeam = DATA Team (Game);
+hostTeam 'Хозяева' = DATA Team (Game); // IN base NONULL ;
+guestTeam 'Гости' = DATA Team (Game);
 hostTeamName 'Хозяева' (Game game) = name(hostTeam(game));
 guestTeamName 'Гости' (Game game) = name(guestTeam(game));
 
+CLASS GamePlayer 'игроки';
+
+game = DATA Game (GamePlayer);
+team = DATA Team (GamePlayer);
+teamName 'Команда игрока' (GamePlayer gp) = name(team(gp));
+player = DATA Player (GamePlayer);
+playerName 'имя игрока' (GamePlayer gp) = playerName(player(gp));
+playerPosition 'Позиция' (GamePlayer gp) = position(player(gp));
+goals 'голы' = DATA INTEGER (GamePlayer) NONULL;
+
 CONSTRAINT hostTeam(Game team) = guestTeam(team) CHECKED BY hostTeam, guestTeam MESSAGE 'Хозяйская и гостевая команды должны быть разными';
+
+CONSTRAINT (team(GamePlayer gp) != hostTeam(game(gp)) AND team(gp) != guestTeam(game(gp)))  
+    CHECKED BY team[GamePlayer] MESSAGE 'Команда игрока должна быть либо хозяева, либо гости!';
+CONSTRAINT teamName(GamePlayer gp) != teamTableName(player(gp)) CHECKED BY player[GamePlayer] MESSAGE 'получилось связать игрока';
+//CONSTRAINT teamTable(player(GamePlayer gp)) != team(gp) CHECKED BY team[GamePlayer] MESSAGE 'Игрок не из выбранной команды!!!!!!'; //лишнее т.к. автозаполнение
 
 hostGoals 'Х голы' = DATA INTEGER (Game);
 guestGoals 'Г голы' = DATA INTEGER (Game);
@@ -24,6 +39,13 @@ winner(Game game) = IF hostGoals(game) > guestGoals(game)
 looser(Game game) = IF hostGoals(game) > guestGoals(game)
     THEN guestTeam(game)
     ELSE hostTeam(game);
+
+hostGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, hostTeam(g)) MATERIALIZED;
+CONSTRAINT hostGoalsTotal(Game g) != hostGoals(g)  MESSAGE 'Сумма голов хозяев не совпадает с введённым значением!';
+
+guestGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, guestTeam(g)) MATERIALIZED;
+CONSTRAINT guestGoalsTotal(Game g) != guestGoals(g) MESSAGE 'Сумма голов гостей не совпадает с введённым значением!';
+//CONSTRAINT (hostGoalsTotal (Game g) (-) hostGoals(g)) > 0 OR (guestGoalsTotal (g) (-) guestGoals(g)) > 0 MESSAGE 'Укажите количество голов для игрока Х';
 
 CLASS GameResult 'Р/И' {
     win 'П',
@@ -75,18 +97,45 @@ goalsConceded 'Кол-во пропущенных голов' (Team team) = OVER
 place 'Место' (Team team) = PARTITION SUM 1 ORDER DESC points(team), gamesWon(team), gamesWonOT(team), gamesWonSO(team),
     (OVERRIDE goalsScored(team) (-) goalsConceded(team), 0), goalsScored(team);
 
+
+
+FORM teamAndPlayers 'Заполнение игр и игроков'
+    OBJECTS game = Game PANEL 
+    PROPERTIES(game) date, hostTeamName, hostGoals, guestTeam, guestGoals, resultName //изменить guestTeam
+    PROPERTIES(game) NEW, EDIT, DELETE
+    
+    OBJECTS p = GamePlayer
+    PROPERTIES(p)  teamName, playerName, playerPosition , goals 
+    
+    PROPERTIES(p) NEW, EDIT, DELETE
+    //в FILTERS всегда пишем СВОЙСТВО = ОБЪЕКТ,
+    FILTERS game(p) = game
+    
+    EDIT Game OBJECT game
+;
+
 FORM scoreTable 'Турнирная таблица'
     OBJECTS game = Game
-    PROPERTIES(game) date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, NEW, DELETE
-
+    PROPERTIES(game) date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, hostGoalsTotal, guestGoalsTotal
+    PROPERTIES(game) NEWSESSION NEW, EDIT, DELETE
+    
     OBJECTS team = Team
     PROPERTIES(team) place, name, gamesPlayed, gamesWon, gamesWonOT, gamesWonSO,
         gamesLostSO, gamesLostOT, gamesLost, goalsScored, goalsConceded, points, NEW, DELETE
     ORDERS place(team)
 ;
 
+/*
+FORM scorersTable 'Таблица бомбардиров'
+    OBJECTS player = Player
+    PROPERTIES(player) playerName, position, goalsTotal
+    FILTERS goalsTotal(player) > 0
+    ORDERS goalsTotal(player)
+;
+*/
 NAVIGATOR {
     NEW scoreTable;
+    //NEW scorersTable;
 }
 
 

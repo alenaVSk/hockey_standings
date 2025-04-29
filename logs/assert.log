@@ -1,0 +1,74 @@
+28 апр. 2025 18:39:55,847 system - system - system  INFO AssertLogger - TABLE WAS REMOVED BEFORE
+
+THREAD :Thread[pool-10-taskRunner-pool-3,5,main]
+	at lsfusion.base.ExceptionUtils.getStackTrace(ExceptionUtils.java:26)
+	at lsfusion.server.base.controller.stack.ExecutionStackAspect.getExStackTrace(ExecutionStackAspect.java:439)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:98)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:91)
+	at lsfusion.server.data.sql.SQLSession.registerChange(SQLSession.java:1974)
+	at lsfusion.server.data.sql.SQLSession.lambda$27(SQLSession.java:2003)
+	at lsfusion.server.data.sql.SQLSession.lambda$26(SQLSession.java:1941)
+	at lsfusion.server.data.sql.SQLSession.runSuppressed(SQLSession.java:235)
+	at lsfusion.server.data.sql.SQLSession.afterStatementExecute(SQLSession.java:1939)
+	at lsfusion.server.data.sql.SQLSession.executeDDL(SQLSession.java:1636)
+	at lsfusion.server.data.sql.SQLSession.truncate(SQLSession.java:2570)
+	at lsfusion.server.data.sql.SQLSession.truncateSession(SQLSession.java:2558)
+	at lsfusion.server.data.sql.SQLSession.removeUnusedTemporaryTables(SQLSession.java:1293)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:2830)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:1)
+	at lsfusion.server.base.MutableClosedObject.explicitClose(MutableClosedObject.java:23)
+	at lsfusion.server.data.sql.SQLSession.close(SQLSession.java:3508)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.closeThreadLocalSql(DBManager.java:865)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:564)
+
+28 апр. 2025 18:39:55,848 system - system - system  INFO AssertLogger - AT CLOSE USED TABLES SHOULD NOT EXIST SQL@125454728
+
+THREAD :Thread[pool-10-taskRunner-pool-3,5,main]
+	at lsfusion.base.ExceptionUtils.getStackTrace(ExceptionUtils.java:26)
+	at lsfusion.server.base.controller.stack.ExecutionStackAspect.getExStackTrace(ExecutionStackAspect.java:439)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:98)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:91)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:2832)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:1)
+	at lsfusion.server.base.MutableClosedObject.explicitClose(MutableClosedObject.java:23)
+	at lsfusion.server.data.sql.SQLSession.close(SQLSession.java:3508)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.closeThreadLocalSql(DBManager.java:865)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:564)
+
+28 апр. 2025 19:13:26,078 system - system - system  INFO AssertLogger - TABLE WAS REMOVED BEFORE
+
+THREAD :Thread[pool-12-taskRunner-pool-1,5,main]
+	at lsfusion.base.ExceptionUtils.getStackTrace(ExceptionUtils.java:26)
+	at lsfusion.server.base.controller.stack.ExecutionStackAspect.getExStackTrace(ExecutionStackAspect.java:439)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:98)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:91)
+	at lsfusion.server.data.sql.SQLSession.registerChange(SQLSession.java:1974)
+	at lsfusion.server.data.sql.SQLSession.lambda$27(SQLSession.java:2003)
+	at lsfusion.server.data.sql.SQLSession.lambda$26(SQLSession.java:1941)
+	at lsfusion.server.data.sql.SQLSession.runSuppressed(SQLSession.java:235)
+	at lsfusion.server.data.sql.SQLSession.afterStatementExecute(SQLSession.java:1939)
+	at lsfusion.server.data.sql.SQLSession.executeDDL(SQLSession.java:1636)
+	at lsfusion.server.data.sql.SQLSession.truncate(SQLSession.java:2570)
+	at lsfusion.server.data.sql.SQLSession.truncateSession(SQLSession.java:2558)
+	at lsfusion.server.data.sql.SQLSession.removeUnusedTemporaryTables(SQLSession.java:1293)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:2830)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:1)
+	at lsfusion.server.base.MutableClosedObject.explicitClose(MutableClosedObject.java:23)
+	at lsfusion.server.data.sql.SQLSession.close(SQLSession.java:3508)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.closeThreadLocalSql(DBManager.java:865)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:564)
+
+28 апр. 2025 19:13:26,079 system - system - system  INFO AssertLogger - AT CLOSE USED TABLES SHOULD NOT EXIST SQL@2134707688
+
+THREAD :Thread[pool-12-taskRunner-pool-1,5,main]
+	at lsfusion.base.ExceptionUtils.getStackTrace(ExceptionUtils.java:26)
+	at lsfusion.server.base.controller.stack.ExecutionStackAspect.getExStackTrace(ExecutionStackAspect.java:439)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:98)
+	at lsfusion.server.physics.admin.log.ServerLoggers.assertLog(ServerLoggers.java:91)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:2832)
+	at lsfusion.server.data.sql.SQLSession.onClose(SQLSession.java:1)
+	at lsfusion.server.base.MutableClosedObject.explicitClose(MutableClosedObject.java:23)
+	at lsfusion.server.data.sql.SQLSession.close(SQLSession.java:3508)
+	at lsfusion.server.physics.exec.db.controller.manager.DBManager.closeThreadLocalSql(DBManager.java:865)
+	at lsfusion.server.base.controller.thread.ExecutorFactory$ClosableDaemonThreadFactory$ClosableThread.run(ExecutorFactory.java:564)
+

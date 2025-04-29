@@ -1,14 +1,15 @@
 MODULE Teams;
 
-REQUIRE System, Goals;
+REQUIRE System;
 
 CLASS Team 'Команда';
 
 name 'Название команды' = DATA STRING[30] (Team) IN base;
 
-CLASS Player 'Игроки';
+CLASS Player 'Игрок';
 
-teamTable 'Таблица' = DATA Team (Player) NONULL DELETE;
+teamTable 'Команда' = DATA Team (Player) NONULL DELETE;
+teamTableName 'Название команды' (Player p) = name(teamTable(p));
 
 index 'Номер строки' (Player p) =
     PARTITION SUM 1 IF p IS Player
@@ -17,6 +18,12 @@ index 'Номер строки' (Player p) =
 playerName 'Имя игрока' = DATA STRING[30] (Player) IN base;
 position 'Позиция' = DATA STRING[20] (Player) IN base;
 
+FORM listTeam 'Команда !!!' //отдельный лист появл, но на странице Заполнение игр и игроков отображается номер
+    OBJECTS t = Team
+    PROPERTIES(t) name
+
+    LIST Team OBJECT t
+;
 FORM teamTable 'Команда'
     OBJECTS t = Team PANEL
     PROPERTIES(t) name
@@ -38,14 +45,8 @@ FORM teamsTable 'Команды'
     PROPERTIES(p) READONLY index, playerName, position
     FILTERS teamTable(p) = t
 ;
-/*
-FORM listTeam 'Команда'
-    OBJECTS t = Team
-    PROPERTIES(t) READONLY name
-    
-    LIST Team OBJECT t
-;
-*/
+
+
 NAVIGATOR {
     NEW teamsTable;
 }
