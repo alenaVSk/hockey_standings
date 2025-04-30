@@ -20,6 +20,7 @@ playerName 'имя игрока' (GamePlayer gp) = playerName(player(gp));
 playerPosition 'Позиция' (GamePlayer gp) = position(player(gp));
 goals 'голы' = DATA INTEGER (GamePlayer) NONULL;
 
+
 CONSTRAINT hostTeam(Game team) = guestTeam(team) CHECKED BY hostTeam, guestTeam MESSAGE 'Хозяйская и гостевая команды должны быть разными';
 
 CONSTRAINT (team(GamePlayer gp) != hostTeam(game(gp)) AND team(gp) != guestTeam(game(gp)))  
@@ -116,26 +117,27 @@ FORM teamAndPlayers 'Заполнение игр и игроков'
 
 FORM scoreTable 'Турнирная таблица'
     OBJECTS game = Game
-    PROPERTIES(game) date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, hostGoalsTotal, guestGoalsTotal
+    PROPERTIES(game) READONLY date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, hostGoalsTotal, guestGoalsTotal
     PROPERTIES(game) NEWSESSION NEW, EDIT, DELETE
     
     OBJECTS team = Team
     PROPERTIES(team) place, name, gamesPlayed, gamesWon, gamesWonOT, gamesWonSO,
         gamesLostSO, gamesLostOT, gamesLost, goalsScored, goalsConceded, points, NEW, DELETE
     ORDERS place(team)
+    
 ;
 
-/*
-FORM scorersTable 'Таблица бомбардиров'
-    OBJECTS player = Player
-    PROPERTIES(player) playerName, position, goalsTotal
-    FILTERS goalsTotal(player) > 0
-    ORDERS goalsTotal(player)
-;
-*/
 NAVIGATOR {
     NEW scoreTable;
-    //NEW scorersTable;
 }
 
+totalGoals 'Всего голов' (Player p) = GROUP SUM goals(GamePlayer gp) BY player(gp);
+place 'Место' (Player p) = PARTITION SUM 1 ORDER DESC totalGoals(p), playerName(p);
+
+EXTEND FORM scoreTable
+    OBJECTS p = Player 
+    PROPERTIES(p) place, playerName, position, totalGoals
+    FILTERS totalGoals(p) > 0
+    ORDERS totalGoals(p) DESC
+;
 

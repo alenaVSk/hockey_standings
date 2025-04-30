@@ -18,12 +18,13 @@ index 'Номер строки' (Player p) =
 playerName 'Имя игрока' = DATA STRING[30] (Player) IN base;
 position 'Позиция' = DATA STRING[20] (Player) IN base;
 
-FORM listTeam 'Команда !!!' //отдельный лист появл, но на странице Заполнение игр и игроков отображается номер
+FORM listTeam 'Команда !!!' //отдельный лист, но на странице Заполнение игр и игроков отображается номер
     OBJECTS t = Team
     PROPERTIES(t) READONLY name
 
     LIST Team OBJECT t
 ;
+
 FORM teamTable 'Команда'
     OBJECTS t = Team PANEL
     PROPERTIES(t) name

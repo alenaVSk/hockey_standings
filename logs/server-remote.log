@@ -7370,3 +7370,615 @@
 29 апр. 2025 23:12:37,469 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[270013359 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1414759634,SQL@983388639]]]
 29 апр. 2025 23:12:42,471 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[270013359 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1414759634,SQL@983388639]]]
 29 апр. 2025 23:12:42,471 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[270013359 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1414759634,SQL@983388639]]
+30 апр. 2025 12:55:16,072 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7f17d9a4
+30 апр. 2025 12:55:23,555 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1206553217 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:55:26,529 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1933, SID: _ADDFORMNEWSESSION_HockeyStats_scoreTable_game_HockeyStats_Game()]
+30 апр. 2025 12:55:26,582 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1717491698 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:55:31,749 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1856, SID: guestTeam(game)]
+30 апр. 2025 12:55:31,762 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[611793381 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:55:35,163 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1320, SID: formOk()]
+30 апр. 2025 12:55:35,164 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[611793381 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:55:35,165 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1320, SID: formOk()]
+30 апр. 2025 12:55:35,166 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[611793381 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:55:35,251 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1856, SID: guestTeam(game)]
+30 апр. 2025 12:55:40,244 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[611793381 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:55:45,246 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[611793381 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:55:45,246 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[611793381 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:27,873 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1717491698 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:27,873 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1717491698 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:59:27,914 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1933, SID: _ADDFORMNEWSESSION_HockeyStats_scoreTable_game_HockeyStats_Game()]
+30 апр. 2025 12:59:29,297 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1703744459 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:31,037 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1408, SID: _ADDFORMNEWSESSION_Teams_teamsTable_t_Teams_Team()]
+30 апр. 2025 12:59:31,053 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[573869262 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:32,915 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1717491698 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:59:34,252 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,0), value : D
+30 апр. 2025 12:59:34,267 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,0)
+30 апр. 2025 12:59:34,389 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,1), value : DD
+30 апр. 2025 12:59:34,399 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,1)
+30 апр. 2025 12:59:34,567 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,2), value : DDD
+30 апр. 2025 12:59:34,575 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,2)
+30 апр. 2025 12:59:34,731 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,3), value : DDDD
+30 апр. 2025 12:59:34,739 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,3)
+30 апр. 2025 12:59:34,890 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,4), value : DDDDD
+30 апр. 2025 12:59:34,899 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,4)
+30 апр. 2025 12:59:35,067 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,5), value : DDDDDD
+30 апр. 2025 12:59:35,076 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,5)
+30 апр. 2025 12:59:35,246 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,6), value : DDDDDDD
+30 апр. 2025 12:59:35,254 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,6)
+30 апр. 2025 12:59:35,441 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,7), value : DDDDDDDD
+30 апр. 2025 12:59:35,449 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,7)
+30 апр. 2025 12:59:35,639 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,8), value : DDDDDDDDD
+30 апр. 2025 12:59:35,648 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,8)
+30 апр. 2025 12:59:35,840 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,9), value : DDDDDDDDDD
+30 апр. 2025 12:59:35,848 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,9)
+30 апр. 2025 12:59:36,033 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,10), value : DDDDDDDDDDD
+30 апр. 2025 12:59:36,042 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,10)
+30 апр. 2025 12:59:36,228 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,11), value : DDDDDDDDDDDD
+30 апр. 2025 12:59:36,238 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,11)
+30 апр. 2025 12:59:36,415 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,12), value : DDDDDDDDDDDDD
+30 апр. 2025 12:59:36,424 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,12)
+30 апр. 2025 12:59:36,621 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,13), value : DDDDDDDDDDDDDD
+30 апр. 2025 12:59:36,631 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,13)
+30 апр. 2025 12:59:36,813 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,14), value : DDDDDDDDDDDDDDD
+30 апр. 2025 12:59:36,821 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,14)
+30 апр. 2025 12:59:37,013 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,15), value : DDDDDDDDDDDDDDDD
+30 апр. 2025 12:59:37,024 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,15)
+30 апр. 2025 12:59:37,199 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,16), value : DDDDDDDDDDDDDDDDD
+30 апр. 2025 12:59:37,208 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,16)
+30 апр. 2025 12:59:37,373 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,17), value : DDDDDDDDDDDDDDDDDD
+30 апр. 2025 12:59:37,384 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,17)
+30 апр. 2025 12:59:37,540 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,18), value : DDDDDDDDDDDDDDDDDDD
+30 апр. 2025 12:59:37,550 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,18)
+30 апр. 2025 12:59:37,696 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,19), value : DDDDDDDDDDDDDDDDDDDD
+30 апр. 2025 12:59:37,708 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,19)
+30 апр. 2025 12:59:37,916 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1717491698 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:59:37,916 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1717491698 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:40,552 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1345, SID: name(t)]
+30 апр. 2025 12:59:40,561 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1345, SID: name(t)]
+30 апр. 2025 12:59:42,343 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1365, SID: _NEW_Teams_teamTable_p()]
+30 апр. 2025 12:59:42,358 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1365, SID: _NEW_Teams_teamTable_p()]
+30 апр. 2025 12:59:43,645 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,20), value : 
+30 апр. 2025 12:59:43,656 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,20)
+30 апр. 2025 12:59:45,379 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,21), value : D
+30 апр. 2025 12:59:45,388 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,21)
+30 апр. 2025 12:59:46,623 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,22), value : D1
+30 апр. 2025 12:59:46,633 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,22)
+30 апр. 2025 12:59:47,672 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1357, SID: playerName(p)]
+30 апр. 2025 12:59:47,676 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1357, SID: playerName(p)]
+30 апр. 2025 12:59:48,029 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,23), value : 
+30 апр. 2025 12:59:48,038 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (72),5,RMI Runtime], indices : (-1,0,23)
+30 апр. 2025 12:59:48,866 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1360, SID: position(p)]
+30 апр. 2025 12:59:48,872 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1360, SID: position(p)]
+30 апр. 2025 12:59:51,140 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1338, SID: formOk()]
+30 апр. 2025 12:59:51,384 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[573869262 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:51,384 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1338, SID: formOk()]
+30 апр. 2025 12:59:51,385 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[573869262 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:59:51,452 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1408, SID: _ADDFORMNEWSESSION_Teams_teamsTable_t_Teams_Team()]
+30 апр. 2025 12:59:53,971 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1703744459 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:53,971 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1703744459 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:59:56,458 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[573869262 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 12:59:56,589 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1933, SID: _ADDFORMNEWSESSION_HockeyStats_scoreTable_game_HockeyStats_Game()]
+30 апр. 2025 12:59:56,680 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[781170721 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 12:59:59,032 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1703744459 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:00:01,459 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[573869262 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:00:01,459 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[573869262 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:00:04,033 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1703744459 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:00:04,033 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1703744459 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:00:10,670 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[781170721 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:00:10,670 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[781170721 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:00:10,747 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1933, SID: _ADDFORMNEWSESSION_HockeyStats_scoreTable_game_HockeyStats_Game()]
+30 апр. 2025 13:00:15,761 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[781170721 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:00:20,763 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[781170721 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:00:20,763 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[781170721 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:01:14,885 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1936, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 13:01:14,911 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1973721719 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:01:15,071 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1936, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 13:23:34,478 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[665422414 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:23:39,950 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1411, SID: _EDITFORMNEWSESSION_Teams_Team(t)]
+30 апр. 2025 13:23:39,957 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1623053320 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:23:40,001 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1411, SID: _EDITFORMNEWSESSION_Teams_Team(t)]
+30 апр. 2025 13:23:41,799 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,0), value : 
+30 апр. 2025 13:23:41,806 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,0)
+30 апр. 2025 13:23:44,457 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,1), value : DDDDDDDD
+30 апр. 2025 13:23:44,465 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,1)
+30 апр. 2025 13:23:45,263 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,2), value : DDDDDDD
+30 апр. 2025 13:23:45,269 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,2)
+30 апр. 2025 13:23:45,574 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,3), value : DDDDDD
+30 апр. 2025 13:23:45,581 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,3)
+30 апр. 2025 13:23:45,782 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,4), value : DDDDD
+30 апр. 2025 13:23:45,798 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,4)
+30 апр. 2025 13:23:45,974 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,5), value : DDDD
+30 апр. 2025 13:23:45,982 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,5)
+30 апр. 2025 13:23:46,151 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,6), value : DDD
+30 апр. 2025 13:23:46,156 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (85),5,RMI Runtime], indices : (-1,0,6)
+30 апр. 2025 13:23:47,440 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1345, SID: name(t)]
+30 апр. 2025 13:23:47,444 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1345, SID: name(t)]
+30 апр. 2025 13:23:49,537 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1338, SID: formOk()]
+30 апр. 2025 13:23:49,635 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1623053320 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:23:49,635 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1338, SID: formOk()]
+30 апр. 2025 13:23:49,635 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1623053320 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:23:54,725 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1623053320 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:23:59,726 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1623053320 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:23:59,726 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1623053320 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:24:00,213 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[665422414 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:24:00,213 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[665422414 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:24:05,316 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[665422414 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:24:10,317 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[665422414 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:24:10,317 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[665422414 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:24:20,867 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1973721719 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 13:24:20,867 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1973721719 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:24:25,932 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1973721719 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:24:30,932 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1973721719 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 13:24:30,933 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1973721719 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]
+30 апр. 2025 15:48:08,469 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@548c0825
+30 апр. 2025 15:48:08,858 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@634c696d
+30 апр. 2025 15:48:09,376 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]
+30 апр. 2025 15:48:09,377 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1206553217 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]]]
+30 апр. 2025 15:48:09,998 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@76ed6396
+30 апр. 2025 15:48:11,930 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@256f006d
+30 апр. 2025 15:48:12,873 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@1abaec1c
+30 апр. 2025 15:48:14,377 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2132269476,SQL@270973795]
+30 апр. 2025 15:53:39,229 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1671613478 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',448457756,SQL@1375433736]]
+30 апр. 2025 15:53:58,607 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1936, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 15:53:58,634 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[111734962 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',448457756,SQL@1375433736]]
+30 апр. 2025 15:53:58,806 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1936, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 16:18:47,340 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1995269014,SQL@829924403]
+30 апр. 2025 16:18:47,341 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1418463269,SQL@1329040361]
+30 апр. 2025 16:18:47,341 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',628031597,SQL@915632238]
+30 апр. 2025 16:18:47,342 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1665952109,SQL@1684752310]
+30 апр. 2025 16:18:52,342 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1995269014,SQL@829924403]
+30 апр. 2025 16:18:52,342 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',628031597,SQL@915632238]
+30 апр. 2025 16:18:52,342 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1418463269,SQL@1329040361]
+30 апр. 2025 16:18:52,344 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1665952109,SQL@1684752310]
+30 апр. 2025 16:37:39,096 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - CALLBACK UNREFERENCED : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7f17d9a4
+30 апр. 2025 18:13:45,829 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@171fe09e
+30 апр. 2025 18:13:47,905 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@d8ea866
+30 апр. 2025 18:13:48,735 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@56da3022
+30 апр. 2025 18:13:49,842 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@56ad921e
+30 апр. 2025 18:13:50,765 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@4b80be6
+30 апр. 2025 18:13:51,897 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@1df36a2
+30 апр. 2025 18:13:52,920 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@776317cb
+30 апр. 2025 18:13:53,711 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3441 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@86afa4c)
+30 апр. 2025 18:13:53,747 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5850 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@49425085)
+30 апр. 2025 18:13:53,763 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4567 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@337af2b9)
+30 апр. 2025 18:13:53,785 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5409 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@406a2bef)
+30 апр. 2025 18:13:54,141 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@1752edbd
+30 апр. 2025 18:13:54,733 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6ae917d
+30 апр. 2025 18:14:01,406 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[144258726 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',112103805,SQL@97158436]]
+30 апр. 2025 18:14:10,515 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1430517856 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',112103805,SQL@97158436]]
+30 апр. 2025 18:14:48,177 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1900, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:14:48,198 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[38871568 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',112103805,SQL@97158436]]
+30 апр. 2025 18:14:48,288 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1900, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:27:27,813 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1927, SID: _NEW_HockeyStats_scoreTable_team()]
+30 апр. 2025 18:27:27,827 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1927, SID: _NEW_HockeyStats_scoreTable_team()]
+30 апр. 2025 18:27:31,674 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1929, SID: _DELETE(team)]
+30 апр. 2025 18:27:31,678 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1929, SID: _DELETE(team)]
+30 апр. 2025 18:28:09,774 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7d2c1636
+30 апр. 2025 18:28:10,028 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5d0cbd21
+30 апр. 2025 18:28:11,052 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@504dab86
+30 апр. 2025 18:28:11,909 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@71d48124
+30 апр. 2025 18:28:12,826 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7f57aaf9
+30 апр. 2025 18:28:13,931 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@2cca3c48
+30 апр. 2025 18:28:14,982 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@53012b9e
+30 апр. 2025 18:28:16,028 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6901d5a4
+30 апр. 2025 18:28:16,613 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5709 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@29f1e34a)
+30 апр. 2025 18:28:16,744 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5110 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@420299ba)
+30 апр. 2025 18:28:16,755 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5847 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@328893b3)
+30 апр. 2025 18:28:16,769 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3708 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@698b9e42)
+30 апр. 2025 18:28:16,818 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4553 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@6549c752)
+30 апр. 2025 18:28:16,951 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@d52810e
+30 апр. 2025 18:28:17,652 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@265ca020
+30 апр. 2025 18:28:21,505 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[636173039 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',643604512,SQL@1104870786]]
+30 апр. 2025 18:28:24,869 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2143, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:28:24,878 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2143, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:28:27,262 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2143, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:28:27,272 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2143, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:29:51,521 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@36167865
+30 апр. 2025 18:29:51,518 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6f8a52e8
+30 апр. 2025 18:29:52,458 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5f5837e6
+30 апр. 2025 18:29:53,334 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@68c0df6b
+30 апр. 2025 18:29:54,369 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5634d81b
+30 апр. 2025 18:29:55,166 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@133b27ee
+30 апр. 2025 18:29:56,453 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@b3850ed
+30 апр. 2025 18:29:57,428 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3ae84991
+30 апр. 2025 18:29:58,261 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@e70e44b
+30 апр. 2025 18:29:59,115 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@be5825a
+30 апр. 2025 18:29:59,657 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6672 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@59e3da6a)
+30 апр. 2025 18:29:59,723 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5903 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@429431e5)
+30 апр. 2025 18:30:00,185 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@372a589f
+30 апр. 2025 18:30:00,319 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3421 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7d47fb85)
+30 апр. 2025 18:30:00,322 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4897 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@38826c37)
+30 апр. 2025 18:30:00,364 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5753 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7d75364c)
+30 апр. 2025 18:30:00,381 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 7369 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@4f8e9907)
+30 апр. 2025 18:30:00,463 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 7508 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@31715ea9)
+30 апр. 2025 18:30:01,076 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3bc82f3
+30 апр. 2025 18:30:04,309 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[534256827 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:30:10,959 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:10,963 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:15,490 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:15,495 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:35,865 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:35,872 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:38,417 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:38,430 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:40,791 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:40,798 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:43,344 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:43,363 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:46,832 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:46,836 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:30:49,935 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:30:49,942 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:31:17,366 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:17,388 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[165426225 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:17,504 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:23,515 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:23,516 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[165426225 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:23,517 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:23,517 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[165426225 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:28,551 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[165426225 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:33,552 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[165426225 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:33,552 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[165426225 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:35,162 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:35,172 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1009405063 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:35,252 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:38,184 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:38,185 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1009405063 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:38,185 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:38,185 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1009405063 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:43,099 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:43,109 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1250992852 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:43,186 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:43,221 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1009405063 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:46,391 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:46,392 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1250992852 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:46,392 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:46,392 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1250992852 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:48,222 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1009405063 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:48,222 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1009405063 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:49,696 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:49,710 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[658148082 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:49,768 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:51,423 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1250992852 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:55,685 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:55,686 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[658148082 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:55,686 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:31:55,686 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[658148082 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:56,424 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1250992852 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:31:56,424 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1250992852 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:57,919 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:31:57,932 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[32054127 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:31:58,027 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:00,713 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[658148082 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:01,746 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:01,747 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[32054127 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:01,747 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:01,747 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[32054127 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:05,714 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[658148082 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:05,714 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[658148082 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:06,772 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[32054127 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:11,772 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[32054127 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:11,772 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[32054127 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:24,886 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:24,900 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1820538571 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:24,961 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:28,331 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:28,331 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1820538571 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:28,331 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:28,331 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1820538571 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:31,551 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:31,563 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[303869425 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:31,615 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:33,354 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1820538571 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:38,355 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1820538571 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:38,356 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1820538571 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:39,358 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:39,359 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[303869425 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:39,359 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:39,359 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[303869425 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:44,164 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:44,173 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1362755626 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:44,223 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:44,420 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[303869425 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:49,420 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[303869425 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:49,420 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[303869425 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:51,819 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:51,820 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1362755626 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:51,821 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:32:51,821 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1362755626 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:32:53,997 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:54,009 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1396767057 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:32:54,080 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:32:56,855 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1362755626 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:33:01,856 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1362755626 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:33:01,856 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1362755626 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:33:07,245 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:33:07,245 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1396767057 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:33:07,245 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:33:07,246 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1396767057 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:33:12,276 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1396767057 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:33:17,277 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1396767057 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:33:17,277 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1396767057 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:33:20,601 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:33:20,605 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:33:25,669 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:25,674 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:28,606 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:28,611 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:31,159 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:31,167 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:34,876 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:34,883 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:37,426 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:33:37,430 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:33:40,914 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:40,917 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:42,366 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:33:42,368 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2011, SID: _NEW_HockeyStats_scoreTable_p()]
+30 апр. 2025 18:33:45,397 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:33:45,405 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1989, SID: playerStatsName(p)]
+30 апр. 2025 18:34:12,476 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:34:12,485 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[894928730 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:34:12,543 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:34:22,405 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:34:22,405 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[894928730 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:34:22,406 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:34:22,406 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[894928730 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:34:26,660 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:34:26,672 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1575113346 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:34:26,727 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1916, SID: _EDITFORMNEWSESSION_HockeyStats_Game(game)]
+30 апр. 2025 18:34:27,439 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[894928730 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:34:32,439 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[894928730 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:34:32,440 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[894928730 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:34:40,347 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:34:40,348 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1575113346 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:34:40,348 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1836, SID: formClose()]
+30 апр. 2025 18:34:40,348 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1575113346 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:34:45,379 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1575113346 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:34:50,380 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1575113346 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:34:50,381 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1575113346 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:08,974 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2018, SID: _DELETE(p)]
+30 апр. 2025 18:53:08,981 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2018, SID: _DELETE(p)]
+30 апр. 2025 18:53:15,541 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[742338932 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:23,495 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1390, SID: _ADDFORMNEWSESSION_Teams_teamsTable_t_Teams_Team()]
+30 апр. 2025 18:53:23,504 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[2080078104 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:25,503 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,0), value : 
+30 апр. 2025 18:53:25,511 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,0)
+30 апр. 2025 18:53:26,370 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1342, SID: name(t)]
+30 апр. 2025 18:53:26,374 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1342, SID: name(t)]
+30 апр. 2025 18:53:27,697 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1354, SID: _NEW_Teams_teamTable_p()]
+30 апр. 2025 18:53:27,702 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1354, SID: _NEW_Teams_teamTable_p()]
+30 апр. 2025 18:53:29,083 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,1), value : 
+30 апр. 2025 18:53:29,087 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,1)
+30 апр. 2025 18:53:30,751 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1351, SID: playerName(p)]
+30 апр. 2025 18:53:30,753 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1351, SID: playerName(p)]
+30 апр. 2025 18:53:31,528 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,2), value : 
+30 апр. 2025 18:53:31,529 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,2)
+30 апр. 2025 18:53:35,085 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,3), value : U
+30 апр. 2025 18:53:35,093 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,3)
+30 апр. 2025 18:53:36,465 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,4), value : U5
+30 апр. 2025 18:53:36,472 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,4)
+30 апр. 2025 18:53:37,984 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1351, SID: playerName(p)]
+30 апр. 2025 18:53:37,986 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1351, SID: playerName(p)]
+30 апр. 2025 18:53:38,386 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues started: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,5), value : 
+30 апр. 2025 18:53:38,391 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - getAsyncValues ended: Thread[RMI:Teams.teamTable, TID - (92),5,RMI Runtime], indices : (-1,0,5)
+30 апр. 2025 18:53:39,396 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1352, SID: position(p)]
+30 апр. 2025 18:53:39,399 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1352, SID: position(p)]
+30 апр. 2025 18:53:41,265 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1331, SID: formOk()]
+30 апр. 2025 18:53:41,365 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[2080078104 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:41,365 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1331, SID: formOk()]
+30 апр. 2025 18:53:41,365 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[2080078104 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:53:41,394 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1390, SID: _ADDFORMNEWSESSION_Teams_teamsTable_t_Teams_Team()]
+30 апр. 2025 18:53:43,793 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[742338932 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:43,794 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[742338932 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:53:46,395 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[2080078104 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:53:48,832 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[742338932 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:53:51,396 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[2080078104 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:53:51,396 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[2080078104 - Teams.teamTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:53,833 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[742338932 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:53:53,833 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[742338932 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:59,473 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1888, SID: formOk()]
+30 апр. 2025 18:53:59,519 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[534256827 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:53:59,519 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1888, SID: formOk()]
+30 апр. 2025 18:53:59,519 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[534256827 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:54:01,628 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1926181706 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 18:54:04,537 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[534256827 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:54:09,537 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[534256827 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]]
+30 апр. 2025 18:54:09,538 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[534256827 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',62685939,SQL@258283975]]
+30 апр. 2025 21:06:47,017 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@4a27c93f
+30 апр. 2025 21:06:56,251 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[241413166 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1244121407,SQL@1676353894]]
+30 апр. 2025 21:12:04,604 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@28a55453
+30 апр. 2025 21:12:04,612 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@54e25661
+30 апр. 2025 21:12:05,461 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@300d9a07
+30 апр. 2025 21:12:07,468 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@23d36730
+30 апр. 2025 21:12:08,516 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3ba86ecc
+30 апр. 2025 21:12:09,675 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@17336555
+30 апр. 2025 21:12:10,603 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7a959f6
+30 апр. 2025 21:12:11,138 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5264 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@45f55c3c)
+30 апр. 2025 21:12:11,159 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5295 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@64924c60)
+30 апр. 2025 21:12:11,166 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5252 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7bf506b9)
+30 апр. 2025 21:12:11,167 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3419 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@42d4838f)
+30 апр. 2025 21:12:11,504 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@d3c57c4
+30 апр. 2025 21:12:15,131 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[854408880 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',222058436,SQL@1822645259]]
+30 апр. 2025 21:12:58,922 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7c1dfb5d
+30 апр. 2025 21:12:58,920 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@29f64ec9
+30 апр. 2025 21:12:59,586 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@702819d9
+30 апр. 2025 21:13:00,607 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5042da0d
+30 апр. 2025 21:13:01,430 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@d23f603
+30 апр. 2025 21:13:02,409 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@2340375f
+30 апр. 2025 21:13:03,625 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@4cf96e91
+30 апр. 2025 21:13:04,549 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7284556
+30 апр. 2025 21:13:05,469 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@54767299
+30 апр. 2025 21:13:06,676 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@b4570af
+30 апр. 2025 21:13:07,034 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3030 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@2577396b)
+30 апр. 2025 21:13:07,225 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 7000 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@75700668)
+30 апр. 2025 21:13:07,480 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@32e0c513
+30 апр. 2025 21:13:07,767 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6738 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@32bc8b41)
+30 апр. 2025 21:13:07,801 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5063 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@48731971)
+30 апр. 2025 21:13:07,867 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 7572 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@3b02bf51)
+30 апр. 2025 21:13:07,898 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6106 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@714974c7)
+30 апр. 2025 21:13:08,039 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 7809 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7ab3c8c1)
+30 апр. 2025 21:13:08,429 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5d0b3dea
+30 апр. 2025 21:13:11,976 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1434104093 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1561017834,SQL@760444732]]
+30 апр. 2025 21:29:45,243 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@777ae1ac
+30 апр. 2025 21:29:45,250 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5be2bf07
+30 апр. 2025 21:29:46,074 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@49c9a716
+30 апр. 2025 21:29:47,138 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@73946208
+30 апр. 2025 21:29:48,224 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@481dcd5e
+30 апр. 2025 21:29:49,084 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@34f1d5f1
+30 апр. 2025 21:29:50,363 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@1dcb847d
+30 апр. 2025 21:29:51,334 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@74d75ff0
+30 апр. 2025 21:29:52,484 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5c67a5d
+30 апр. 2025 21:29:53,145 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6532 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@3caf27f)
+30 апр. 2025 21:29:53,148 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6736 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@5b8fa98c)
+30 апр. 2025 21:29:53,153 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3759 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@15a105ab)
+30 апр. 2025 21:29:53,162 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4583 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@2e75bc0f)
+30 апр. 2025 21:29:53,168 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6757 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@43a68a5)
+30 апр. 2025 21:29:53,215 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5542 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7aed5143)
+30 апр. 2025 21:29:53,551 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6eac156c
+30 апр. 2025 21:29:54,221 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@c6a0f23
+30 апр. 2025 21:29:58,659 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[892642188 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',208277283,SQL@2039347301]]
+30 апр. 2025 21:30:39,312 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3a35f57f
+30 апр. 2025 21:30:39,314 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7512657b
+30 апр. 2025 21:30:39,958 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6616024b
+30 апр. 2025 21:30:40,900 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@77a35d06
+30 апр. 2025 21:30:41,899 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6baac59a
+30 апр. 2025 21:30:42,939 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@4a0b0d2e
+30 апр. 2025 21:30:44,068 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@71dc518f
+30 апр. 2025 21:30:44,801 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@a23e162
+30 апр. 2025 21:30:45,943 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5478 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@43a68fd6)
+30 апр. 2025 21:30:45,944 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3821 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@1b88145)
+30 апр. 2025 21:30:45,957 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5528 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@aa702ec)
+30 апр. 2025 21:30:45,992 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5563 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@66330568)
+30 апр. 2025 21:30:46,033 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4704 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@77777ec3)
+30 апр. 2025 21:30:46,072 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5121aafa
+30 апр. 2025 21:30:46,494 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3204 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@70ee575)
+30 апр. 2025 21:30:46,679 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@2b0f2280
+30 апр. 2025 21:30:54,682 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1017660432 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',722412160,SQL@16310513]]
+30 апр. 2025 21:32:15,962 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@4d3c3eda
+30 апр. 2025 21:32:20,901 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1219727324 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1295793882,SQL@4539859]]
+30 апр. 2025 21:37:10,050 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3a377c1d
+30 апр. 2025 21:37:10,254 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3122499b
+30 апр. 2025 21:37:11,189 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@56da3022
+30 апр. 2025 21:37:12,217 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@f83d064
+30 апр. 2025 21:37:13,160 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7d3312ad
+30 апр. 2025 21:37:14,102 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@2b92e012
+30 апр. 2025 21:37:15,172 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@56505dc4
+30 апр. 2025 21:37:16,172 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5602e016
+30 апр. 2025 21:37:17,413 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@75d69a4d
+30 апр. 2025 21:37:17,596 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4920 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@21229e)
+30 апр. 2025 21:37:17,730 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6069 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@2ab1dd67)
+30 апр. 2025 21:37:17,732 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6434 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@4692f89)
+30 апр. 2025 21:37:17,732 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4303 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@5bf48a82)
+30 апр. 2025 21:37:17,733 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6439 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7a947262)
+30 апр. 2025 21:37:18,075 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3626 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@6e2c43a8)
+30 апр. 2025 21:37:18,172 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7d94b175
+30 апр. 2025 21:37:23,106 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[719238348 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',2106896757,SQL@832974707]]
+30 апр. 2025 21:50:27,806 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@8faea0e
+30 апр. 2025 21:50:27,809 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@438314ec
+30 апр. 2025 21:50:28,472 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@1163c3e2
+30 апр. 2025 21:50:30,443 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@585b5b6b
+30 апр. 2025 21:50:31,580 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5b3f1c7a
+30 апр. 2025 21:50:32,536 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7dd45443
+30 апр. 2025 21:50:33,636 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@578c5136
+30 апр. 2025 21:50:34,569 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5621 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7dbef15c)
+30 апр. 2025 21:50:34,786 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@de6921
+30 апр. 2025 21:50:34,866 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5921 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@3b29b2b)
+30 апр. 2025 21:50:34,897 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 3057 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@29f66cf2)
+30 апр. 2025 21:50:34,971 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5920 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@7bccce31)
+30 апр. 2025 21:50:35,117 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4346 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@75756d41)
+30 апр. 2025 21:50:35,420 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@70fa6665
+30 апр. 2025 21:50:39,333 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[2058521506 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1895458405,SQL@55012338]]
+30 апр. 2025 21:52:48,598 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6e8fcbb5
+30 апр. 2025 21:52:48,634 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@2dcf986
+30 апр. 2025 21:52:49,415 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@705fa67e
+30 апр. 2025 21:52:50,515 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6e65980
+30 апр. 2025 21:52:51,311 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@7d7948c1
+30 апр. 2025 21:52:52,389 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@c90f5f6
+30 апр. 2025 21:52:53,524 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6cb6fb98
+30 апр. 2025 21:52:54,332 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5f4c2250
+30 апр. 2025 21:52:55,372 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5737952b
+30 апр. 2025 21:52:55,686 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4189 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@22674604)
+30 апр. 2025 21:52:55,873 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4990 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@495c8c65)
+30 апр. 2025 21:52:56,384 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6506 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@6391e10e)
+30 апр. 2025 21:52:56,404 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6473 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@701f3cd2)
+30 апр. 2025 21:52:56,497 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6e7af252
+30 апр. 2025 21:52:56,592 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 6629 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@2611c574)
+30 апр. 2025 21:52:57,178 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@633e9b79
+30 апр. 2025 21:53:01,111 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[992494045 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1665047417,SQL@1100784697]]
+30 апр. 2025 22:01:24,611 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@d29ebd6
+30 апр. 2025 22:01:24,616 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@557ae948
+30 апр. 2025 22:01:25,496 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@6439de55
+30 апр. 2025 22:01:27,594 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@65e27948
+30 апр. 2025 22:01:28,553 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@3f24afd1
+30 апр. 2025 22:01:30,267 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4505 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@71691353)
+30 апр. 2025 22:01:30,301 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4178 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@13bb9fe8)
+30 апр. 2025 22:01:30,355 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4586 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@37c457b4)
+30 апр. 2025 22:03:03,075 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[139757693 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1059368913,SQL@1317286520]]
+30 апр. 2025 22:21:43,550 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@56079606
+30 апр. 2025 22:21:43,592 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@670dbbfa
+30 апр. 2025 22:21:44,540 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@f528fd9
+30 апр. 2025 22:21:46,437 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@5674be30
+30 апр. 2025 22:21:47,460 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@157b2193
+30 апр. 2025 22:21:48,498 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@a4a0964
+30 апр. 2025 22:21:49,567 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@76f440c6
+30 апр. 2025 22:21:49,582 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 4858 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@2b1ad286)
+30 апр. 2025 22:21:49,908 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5178 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@5058b832)
+30 апр. 2025 22:21:50,099 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 5075 ms.): exec(Service.getInitSettings[], lsfusion.interop.session.ExternalRequest@3325d2ee)
+30 апр. 2025 22:21:50,399 system - system - system  INFO RemoteLogger - NAVIGATOR OPEN : lsfusion.server.logics.navigator.controller.remote.RemoteNavigator@4aed9a09
+30 апр. 2025 22:21:58,912 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[363720852 - HockeyStats.scoreTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:23:31,020 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 2030, SID: _ADDFORMNEWSESSION_HockeyStats_scoreTable_game_HockeyStats_Game()]
+30 апр. 2025 22:23:31,040 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1559834195 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:23:33,710 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1964, SID: hostTeamName(game)]
+30 апр. 2025 22:23:33,715 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1964, SID: hostTeamName(game)]
+30 апр. 2025 22:23:36,239 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1963, SID: date(game)]
+30 апр. 2025 22:23:36,242 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1963, SID: date(game)]
+30 апр. 2025 22:23:50,058 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1965, SID: hostGoals(game)]
+30 апр. 2025 22:23:50,062 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1965, SID: hostGoals(game)]
+30 апр. 2025 22:23:50,073 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1966, SID: guestTeam(game)]
+30 апр. 2025 22:23:50,078 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[1042189476 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:23:54,153 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1314, SID: formOk()]
+30 апр. 2025 22:23:54,154 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1042189476 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:23:54,155 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1314, SID: formOk()]
+30 апр. 2025 22:23:54,155 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1042189476 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:23:54,229 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1966, SID: guestTeam(game)]
+30 апр. 2025 22:23:58,108 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1967, SID: guestGoals(game)]
+30 апр. 2025 22:23:58,110 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1967, SID: guestGoals(game)]
+30 апр. 2025 22:23:59,235 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1042189476 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:23:59,782 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1987, SID: _NEW_HockeyStats_teamAndPlayers_p()]
+30 апр. 2025 22:23:59,788 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1987, SID: _NEW_HockeyStats_teamAndPlayers_p()]
+30 апр. 2025 22:24:04,236 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1042189476 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:24:04,236 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1042189476 - Teams.listTeam,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:24:07,727 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1982, SID: playerName(p)]
+30 апр. 2025 22:24:07,731 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1982, SID: playerName(p)]
+30 апр. 2025 22:24:12,862 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1984, SID: goals(p)]
+30 апр. 2025 22:24:12,866 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1984, SID: goals(p)]
+30 апр. 2025 22:24:12,888 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1987, SID: _NEW_HockeyStats_teamAndPlayers_p()]
+30 апр. 2025 22:24:12,898 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1987, SID: _NEW_HockeyStats_teamAndPlayers_p()]
+30 апр. 2025 22:24:20,464 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1981, SID: teamName(p)]
+30 апр. 2025 22:24:20,470 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1981, SID: teamName(p)]
+30 апр. 2025 22:24:24,613 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1982, SID: playerName(p)]
+30 апр. 2025 22:24:24,616 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1982, SID: playerName(p)]
+30 апр. 2025 22:24:28,981 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1981, SID: teamName(p)]
+30 апр. 2025 22:24:28,988 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1981, SID: teamName(p)]
+30 апр. 2025 22:24:31,846 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1982, SID: playerName(p)]
+30 апр. 2025 22:24:31,852 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1982, SID: playerName(p)]
+30 апр. 2025 22:24:36,431 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1984, SID: goals(p)]
+30 апр. 2025 22:24:36,438 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1984, SID: goals(p)]
+30 апр. 2025 22:24:36,439 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1956, SID: formOk()]
+30 апр. 2025 22:24:36,812 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[1559834195 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:24:36,813 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1956, SID: formOk()]
+30 апр. 2025 22:24:36,813 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[1559834195 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:24:36,856 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 2030, SID: _ADDFORMNEWSESSION_HockeyStats_scoreTable_game_HockeyStats_Game()]
+30 апр. 2025 22:24:36,860 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - Executed remote method (time: 53143 ms.): gainedFocus(15, 14)
+30 апр. 2025 22:24:41,866 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[1559834195 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:24:46,867 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[1559834195 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:24:46,868 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[1559834195 - HockeyStats.teamAndPlayers,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:25:05,659 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM OPEN : FORM[977643139 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:25:12,166 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction started: [ID: 1385, SID: _DELETE(t)]
+30 апр. 2025 22:25:13,952 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - executeEventAction ended: [ID: 1385, SID: _DELETE(t)]
+30 апр. 2025 22:25:26,855 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM HIDE : FORM[977643139 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]
+30 апр. 2025 22:25:26,855 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM DELAYED HIDE : RF[FORM[977643139 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:25:31,872 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT DEACTIVATE RF[FORM[977643139 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:25:36,873 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - REMOTE OBJECT CLOSE RF[FORM[977643139 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]]
+30 апр. 2025 22:25:36,873 admin - 127.0.0.1 - 127.0.0.1  INFO RemoteLogger - FORM CLOSE : FORM[977643139 - Teams.teamsTable,RN[clientAddress: 127.0.0.1,268 - Authentication.CustomUser 'Обычный пользователь',1257085449,SQL@903752619]]

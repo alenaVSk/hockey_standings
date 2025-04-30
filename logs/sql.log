@@ -7,3 +7,5 @@
 29 апр. 2025 14:11:40,212 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (67),5,RMI Runtime]: no private connection found
 29 апр. 2025 14:11:40,213 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (43),5,RMI Runtime]: no private connection found
 29 апр. 2025 14:11:40,213 admin - 127.0.0.1 - 127.0.0.1 ERROR SQLLogger - Failed to interrupt process Thread[RMI:HockeyStats.teamAndPlayers, TID - (66),5,RMI Runtime]: no private connection found
+30 апр. 2025 15:48:14,457 admin - 127.0.0.1 - 127.0.0.1  INFO SQLLogger - REMOVE UNUSED TEMP TABLE : t_0, DEBUG INFO : upktable-1206553217
+30 апр. 2025 15:48:14,461 admin - 127.0.0.1 - 127.0.0.1  INFO SQLLogger - REMOVE UNUSED TEMP TABLE : t_1, DEBUG INFO : upktable-1206553217
