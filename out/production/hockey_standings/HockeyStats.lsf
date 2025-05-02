@@ -46,7 +46,6 @@ CONSTRAINT hostGoalsTotal(Game g) != hostGoals(g)  MESSAGE 'Сумма голо�
 
 guestGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, guestTeam(g)) MATERIALIZED;
 CONSTRAINT guestGoalsTotal(Game g) != guestGoals(g) MESSAGE 'Сумма голов гостей не совпадает с введённым значением!';
-//CONSTRAINT (hostGoalsTotal (Game g) (-) hostGoals(g)) > 0 OR (guestGoalsTotal (g) (-) guestGoals(g)) > 0 MESSAGE 'Укажите количество голов для игрока Х';
 
 CLASS GameResult 'Р/И' {
     win 'П',
@@ -98,26 +97,26 @@ goalsConceded 'Кол-во пропущенных голов' (Team team) = OVER
 place 'Место' (Team team) = PARTITION SUM 1 ORDER DESC points(team), gamesWon(team), gamesWonOT(team), gamesWonSO(team),
     (OVERRIDE goalsScored(team) (-) goalsConceded(team), 0), goalsScored(team);
 
-
+totalGoals 'Всего голов' (Player p) = GROUP SUM goals(GamePlayer gp) BY player(gp);
+place 'Место' (Player p) = PARTITION SUM 1 ORDER DESC totalGoals(p), playerName(p);
 
 FORM teamAndPlayers 'Заполнение игр и игроков'
-    OBJECTS game = Game PANEL 
-    PROPERTIES(game) date, hostTeamName, hostGoals, guestTeam, guestGoals, resultName //изменить guestTeam
+    
+    OBJECTS game = Game PANEL
+    PROPERTIES(game) date, hostTeamName, hostGoals, guestTeamName, guestGoals, resultName 
     PROPERTIES(game) NEW, EDIT, DELETE
-    
-    OBJECTS p = GamePlayer
-    PROPERTIES(p)  teamName, playerName, playerPosition , goals 
-    
+
+    OBJECTS p = GamePlayer 
+    PROPERTIES(p)  teamName, playerName, playerPosition , goals
     PROPERTIES(p) NEW, EDIT, DELETE
-    //в FILTERS всегда пишем СВОЙСТВО = ОБЪЕКТ,
-    FILTERS game(p) = game
+    FILTERS game(p) = game  
     
     EDIT Game OBJECT game
 ;
 
 FORM scoreTable 'Турнирная таблица'
     OBJECTS game = Game
-    PROPERTIES(game) READONLY date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName, hostGoalsTotal, guestGoalsTotal
+    PROPERTIES(game) READONLY date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName
     PROPERTIES(game) NEWSESSION NEW, EDIT, DELETE
     
     OBJECTS team = Team
@@ -127,17 +126,15 @@ FORM scoreTable 'Турнирная таблица'
     
 ;
 
+FORM nameScoreTable 'Бомбардиры'
+    OBJECTS p = Player
+    PROPERTIES(p) place, playerName, teamTableName, position, totalGoals
+    FILTERS totalGoals(p) > 0
+    ORDERS place(p)
+;
+
 NAVIGATOR {
     NEW scoreTable;
+    NEW nameScoreTable AFTER scoreTable;
 }
-
-totalGoals 'Всего голов' (Player p) = GROUP SUM goals(GamePlayer gp) BY player(gp);
-place 'Место' (Player p) = PARTITION SUM 1 ORDER DESC totalGoals(p), playerName(p);
-
-EXTEND FORM scoreTable
-    OBJECTS p = Player 
-    PROPERTIES(p) place, playerName, position, totalGoals
-    FILTERS totalGoals(p) > 0
-    ORDERS totalGoals(p) DESC
-;
 

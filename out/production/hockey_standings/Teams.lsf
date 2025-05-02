@@ -6,7 +6,7 @@ CLASS Team 'Команда';
 
 name 'Название команды' = DATA STRING[30] (Team) IN base;
 
-CLASS Player 'Игрок';
+CLASS Player 'Игроки';
 
 teamTable 'Команда' = DATA Team (Player) NONULL DELETE;
 teamTableName 'Название команды' (Player p) = name(teamTable(p));
@@ -17,7 +17,7 @@ index 'Номер строки' (Player p) =
 
 playerName 'Имя игрока' = DATA STRING[30] (Player) IN base;
 position 'Позиция' = DATA STRING[20] (Player) IN base;
-
+/*
 FORM listTeam 'Команда !!!' //отдельный лист, но на странице Заполнение игр и игроков отображается номер
     OBJECTS t = Team
     PROPERTIES(t) READONLY name
@@ -25,13 +25,20 @@ FORM listTeam 'Команда !!!' //отдельный лист, но на ст
     LIST Team OBJECT t
 ;
 
+FORM listPlayer 'Игрок !!!' //отдельный лист, но на странице Заполнение игр и игроков отображается номер
+    OBJECTS p = Player
+    PROPERTIES(p) READONLY playerName
+
+    LIST Player OBJECT p
+;
+*/
 FORM teamTable 'Команда'
     OBJECTS t = Team PANEL
     PROPERTIES(t) name
 
     OBJECTS p = Player
     PROPERTIES(p) index, playerName, position
-    PROPERTIES(p) NEW, EDIT, DELETE // редактирование(команда и игроки) на одной странице без перехода на др.
+    PROPERTIES(p) NEW, EDIT, DELETE
     FILTERS teamTable(p) = t
 
     EDIT Team OBJECT t
