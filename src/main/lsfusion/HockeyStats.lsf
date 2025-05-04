@@ -1,32 +1,39 @@
 MODULE HockeyStats;
 
-REQUIRE System, Teams;
+REQUIRE System;
+
+CLASS Team 'Команда';
+
+name 'Название команды' = DATA STRING[30] (Team) IN base;
+
+FORM team 'Команда'
+    OBJECTS t = Team PANEL
+    PROPERTIES(t) name
+
+    EDIT Team OBJECT t
+;
+
+FORM teams 'Команды'
+    OBJECTS t = Team
+    PROPERTIES(t) READONLY name
+    PROPERTIES(t) NEWSESSION NEW, EDIT, DELETE
+
+    LIST Team OBJECT t
+;
+
+NAVIGATOR {
+    NEW teams;
+}
 
 CLASS Game 'Игра';
 
 date 'Дата' = DATA DATE (Game);
-hostTeam 'Хозяева' = DATA Team (Game); // IN base NONULL ;
-guestTeam 'Гости' = DATA Team (Game);
+hostTeam = DATA Team (Game);
+guestTeam = DATA Team (Game);
 hostTeamName 'Хозяева' (Game game) = name(hostTeam(game));
 guestTeamName 'Гости' (Game game) = name(guestTeam(game));
 
-CLASS GamePlayer 'игроки';
-
-game = DATA Game (GamePlayer);
-team = DATA Team (GamePlayer);
-teamName 'Команда игрока' (GamePlayer gp) = name(team(gp));
-player = DATA Player (GamePlayer);
-playerName 'имя игрока' (GamePlayer gp) = playerName(player(gp));
-playerPosition 'Позиция' (GamePlayer gp) = position(player(gp));
-goals 'голы' = DATA INTEGER (GamePlayer) NONULL;
-
-
 CONSTRAINT hostTeam(Game team) = guestTeam(team) CHECKED BY hostTeam, guestTeam MESSAGE 'Хозяйская и гостевая команды должны быть разными';
-
-CONSTRAINT (team(GamePlayer gp) != hostTeam(game(gp)) AND team(gp) != guestTeam(game(gp)))  
-    CHECKED BY team[GamePlayer] MESSAGE 'Команда игрока должна быть либо хозяева, либо гости!';
-CONSTRAINT teamName(GamePlayer gp) != teamTableName(player(gp)) CHECKED BY player[GamePlayer] MESSAGE 'получилось связать игрока';
-//CONSTRAINT teamTable(player(GamePlayer gp)) != team(gp) CHECKED BY team[GamePlayer] MESSAGE 'Игрок не из выбранной команды!!!!!!'; //лишнее т.к. автозаполнение
 
 hostGoals 'Х голы' = DATA INTEGER (Game);
 guestGoals 'Г голы' = DATA INTEGER (Game);
@@ -40,12 +47,6 @@ winner(Game game) = IF hostGoals(game) > guestGoals(game)
 looser(Game game) = IF hostGoals(game) > guestGoals(game)
     THEN guestTeam(game)
     ELSE hostTeam(game);
-
-hostGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, hostTeam(g)) MATERIALIZED;
-CONSTRAINT hostGoalsTotal(Game g) != hostGoals(g)  MESSAGE 'Сумма голов хозяев не совпадает с введённым значением!';
-
-guestGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, guestTeam(g)) MATERIALIZED;
-CONSTRAINT guestGoalsTotal(Game g) != guestGoals(g) MESSAGE 'Сумма голов гостей не совпадает с введённым значением!';
 
 CLASS GameResult 'Р/И' {
     win 'П',
@@ -97,44 +98,127 @@ goalsConceded 'Кол-во пропущенных голов' (Team team) = OVER
 place 'Место' (Team team) = PARTITION SUM 1 ORDER DESC points(team), gamesWon(team), gamesWonOT(team), gamesWonSO(team),
     (OVERRIDE goalsScored(team) (-) goalsConceded(team), 0), goalsScored(team);
 
-totalGoals 'Всего голов' (Player p) = GROUP SUM goals(GamePlayer gp) BY player(gp);
-place 'Место' (Player p) = PARTITION SUM 1 ORDER DESC totalGoals(p), playerName(p);
-
-FORM teamAndPlayers 'Заполнение игр и игроков'
-    
-    OBJECTS game = Game PANEL
-    PROPERTIES(game) date, hostTeamName, hostGoals, guestTeamName, guestGoals, resultName 
-    PROPERTIES(game) NEW, EDIT, DELETE
-
-    OBJECTS p = GamePlayer 
-    PROPERTIES(p)  teamName, playerName, playerPosition , goals
-    PROPERTIES(p) NEW, EDIT, DELETE
-    FILTERS game(p) = game  
-    
-    EDIT Game OBJECT game
-;
-
 FORM scoreTable 'Турнирная таблица'
     OBJECTS game = Game
-    PROPERTIES(game) READONLY date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName
-    PROPERTIES(game) NEWSESSION NEW, EDIT, DELETE
-    
+    PROPERTIES(game) date, hostTeamName, hostGoals, guestGoals, guestTeamName, resultName//, NEW, DELETE
+
     OBJECTS team = Team
     PROPERTIES(team) place, name, gamesPlayed, gamesWon, gamesWonOT, gamesWonSO,
         gamesLostSO, gamesLostOT, gamesLost, goalsScored, goalsConceded, points, NEW, DELETE
     ORDERS place(team)
-    
 ;
 
-FORM nameScoreTable 'Бомбардиры'
+NAVIGATOR {
+    NEW scoreTable;
+}
+
+//Выполнение тестового задания
+CLASS Player 'Игроки';
+
+teamTable 'Команда' = DATA Team (Player) NONULL DELETE;
+teamTableName 'Название команды' (Player p) = name(teamTable(p));
+
+index 'Номер п/п' (Player p) =
+    PARTITION SUM 1 IF p IS Player
+        ORDER p BY teamTable(p);
+
+playerName 'Имя игрока' = DATA STRING[30] (Player) IN base;
+position 'Позиция' = DATA STRING[20] (Player) IN base;
+
+EXTEND FORM team
+    OBJECTS p = Player
+    PROPERTIES(p) index, playerName, position
+    PROPERTIES(p) NEW, EDIT, DELETE
+    FILTERS teamTable(p) = t
+
+    EDIT Team OBJECT t
+;
+
+EXTEND FORM teams
+    OBJECTS p = Player
+    PROPERTIES(p) READONLY index, playerName, position
+    FILTERS teamTable(p) = t
+;
+
+CLASS GamePlayer 'Игроки';
+
+game = DATA Game (GamePlayer);
+team = DATA Team (GamePlayer);
+teamName 'Команда игрока' (GamePlayer gp) = name(team(gp));
+player = DATA Player (GamePlayer);
+playerName 'Имя игрока' (GamePlayer gp) = playerName(player(gp));
+playerPosition 'Позиция' (GamePlayer gp) = position(player(gp));
+goals 'Голы' = DATA INTEGER (GamePlayer) NONULL;
+
+CONSTRAINT (team(GamePlayer gp) != hostTeam(game(gp)) AND team(gp) != guestTeam(game(gp)))
+    CHECKED BY team[GamePlayer] MESSAGE 'Команда игрока должна быть либо хозяева, либо гости!';
+CONSTRAINT teamName(GamePlayer gp) != teamTableName(player(gp)) CHECKED BY player[GamePlayer] MESSAGE 'Игрок не из команды хозяевов/гостей!';
+
+hostGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, hostTeam(g)) MATERIALIZED; 
+CONSTRAINT hostGoalsTotal(Game g) != hostGoals(g)  MESSAGE 'Сумма голов хозяев не совпадает с введённым значением!';
+
+guestGoalsTotal (Game g) = [ GROUP SUM goals(GamePlayer gp) BY game(gp), team(gp) ] (g, guestTeam(g)) MATERIALIZED; 
+CONSTRAINT guestGoalsTotal(Game g) != guestGoals(g) MESSAGE 'Сумма голов гостей не совпадает с введённым значением!';
+
+totalGoals 'Всего голов' (Player p) = GROUP SUM goals(GamePlayer gp) BY player(gp);
+place 'Место' (Player p) = PARTITION SUM 1 ORDER DESC totalGoals(p), playerName(p);
+
+EXTEND FORM scoreTable //дополнительно в строке 103 удаляем NEW, DELETE
+
+    PROPERTIES(game) NEWSESSION NEW, EDIT, DELETE
+;    
+
+FORM teamAndPlayers 'Заполнение игр и игроков'
+
+    OBJECTS game = Game PANEL 
+    PROPERTIES(game) date, hostTeamName, hostGoals, guestTeamName, guestGoals, resultName, NEW, DELETE
+
+    OBJECTS p = GamePlayer
+    PROPERTIES(p)  teamName, playerName, playerPosition , goals, NEW, DELETE
+    FILTERS game(p) = game
+
+    EDIT Game OBJECT game
+;
+
+DESIGN teamAndPlayers {
+    OBJECTS {
+        MOVE BOX(game) FIRST {
+            NEW cntDate FIRST {
+                horizontal = FALSE;
+                height = 50;
+                MOVE PROPERTY (date(game));
+            }
+            NEW cntHost AFTER cntDate {
+                horizontal = TRUE;
+                height = 50;
+                MOVE PROPERTY (hostTeamName(game)){ background = RGB(204, 204, 255);}
+                MOVE PROPERTY (hostGoals(game)){ background = RGB(204, 204, 255); charWidth=5; };
+            }
+            NEW cntGuest AFTER  cntHost {
+                horizontal = TRUE;
+                height = 50;
+                MOVE PROPERTY (guestTeamName(game)){ background = RGB(255, 204, 204);}
+                MOVE PROPERTY (guestGoals(game)) { background = RGB(255, 204, 204); charWidth=5; } 
+            }
+            NEW cntResult AFTER  cntGuest {
+                horizontal = FALSE;
+                height = 50;
+                MOVE PROPERTY (resultName(game)){ charWidth=5; };
+            }
+        }    
+    }
+}
+
+FORM nameScoreTable 'Статистика'
+    
     OBJECTS p = Player
     PROPERTIES(p) place, playerName, teamTableName, position, totalGoals
+ 
     FILTERS totalGoals(p) > 0
     ORDERS place(p)
 ;
 
 NAVIGATOR {
-    NEW scoreTable;
     NEW nameScoreTable AFTER scoreTable;
 }
 
