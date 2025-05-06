@@ -164,12 +164,10 @@ totalGoals 'Всего голов' (Player p) = GROUP SUM goals(GamePlayer gp) B
 place 'Место' (Player p) = PARTITION SUM 1 ORDER DESC totalGoals(p), playerName(p);
 
 EXTEND FORM scoreTable //дополнительно в строке 103 удаляем NEW, DELETE
-
     PROPERTIES(game) NEWSESSION NEW, EDIT, DELETE
 ;    
 
-FORM teamAndPlayers 'Заполнение игр и игроков'
-
+FORM teamAndPlayers 'Заполнение турнирной таблицы'
     OBJECTS game = Game PANEL 
     PROPERTIES(game) date, hostTeamName, hostGoals, guestTeamName, guestGoals, resultName, NEW, DELETE
 
@@ -179,6 +177,7 @@ FORM teamAndPlayers 'Заполнение игр и игроков'
 
     EDIT Game OBJECT game
 ;
+
 
 DESIGN teamAndPlayers {
     OBJECTS {
@@ -210,7 +209,6 @@ DESIGN teamAndPlayers {
 }
 
 FORM nameScoreTable 'Статистика'
-    
     OBJECTS p = Player
     PROPERTIES(p) place, playerName, teamTableName, position, totalGoals
  
